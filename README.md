@@ -1,5 +1,8 @@
 Below is an example of a “DevOps Dashboard Project” that ties together many of the tools mentioned. Keep in mind that in a production system each component would be more elaborate and reside in its own module or service. For this example, we’ll keep things as simple as possible while demonstrating how to:
 
+**DevOps Problem**:
+The core DevOps problem being addressed here is how to manage and automate various tasks—whether they’re initiated on a schedule, triggered by external events (like webhooks), or need to run in the background—without blocking your main application. This involves orchestrating processes so that the system remains responsive and scalable, even when handling a lot of asynchronous work.
+
 - Build a **Flask dashboard** with a **Prometheus metrics endpoint**  
 - Schedule background tasks with **schedule** and process webhook-triggered jobs with **RQ**  
 - Run a basic **Scapy** packet sniffer (for demonstration)  
